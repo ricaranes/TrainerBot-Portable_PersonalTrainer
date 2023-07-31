@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <style>
+        body {
+            background-image: url("/static/images/Home.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .start-button {
+            padding: 10px 50px; /* Aumentando o valor do padding para tornar o botão mais largo */
+            background: linear-gradient(45deg, #1babcc, #00CCFF);
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+        }
+
+        .start-button:hover {
+            background-color: #76a5bb;
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .start-button:focus {
+            outline: none;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .start-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Classe para ajustar a posição do botão */
+        .button-position {
+            transform: translate(-13cm, -5cm); /* Ajuste os valores de 'translate' conforme necessário */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-position">
+        <a href="{{ url_for('index') }}"><button class="start-button">LET'S TRAIN</button></a>
+    </div>
+</body>
+</html>

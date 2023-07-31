@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+            background-image: url("/static/images/TRAINER BOT.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            margin: 3px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .custom-button {
+            background: linear-gradient(45deg, #0099FF, #00CCFF);
+            border: none;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px 10px;
+            cursor: pointer;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .custom-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-button:focus {
+            outline: none;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(document).keydown(function(event) {
+                if (event.key === '1' || event.key === '2' || event.key === 'f' || event.key === 'F' || event.key === 's' || event.key === 'S' || event.key === 'r' || event.key === 'R') {
+                    $.ajax({
+                        type: 'POST',
+                        url: '/keypress',
+                        data: {
+                            key: event.key
+                        },
+                        success: function(response) {
+                            console.log('Key pressed: ' + event.key);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1></h1>
+    <header>
+        <button onclick="sendKey('1')" class="custom-button">SQUAT</button>
+        <button onclick="sendKey('2')" class="custom-button">DEADLIFT</button>
+        <button onclick="sendKey('f')" class="custom-button">FRONT VIEW</button>
+        <button onclick="sendKey('s')" class="custom-button">SIDE VIEW</button>
+        <button onclick="sendKey('r')" class="custom-button">RESET REP</button>
+        <button onclick="window.location.href='/end_exercise'" class="custom-button">END EXERCISE</button>
+    </header>
+    <div class="video-container">
+        <img src="{{ url_for('video_feed') }}">
+    </div>
+</body>
+<script>
+    function sendKey(key) {
+        $.ajax({
+            type: 'POST',
+            url: '/keypress',
+            data: {
+                key: key
+            },
+            success: function(response) {
+                console.log('Button clicked: ' + key);
+            }
+        });
+    }
+</script>
+</html>
