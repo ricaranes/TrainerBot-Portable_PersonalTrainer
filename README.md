@@ -1,7 +1,6 @@
 # Trainer Bot - Portable Personal Trainer
 
 ## Trainer Bot
-[![video]([caminho/para/o/seu/video.mp4](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/logo.mp4))]([caminho/para/o/seu/video.mp4](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/logo.mp4))
 
 ## Project Description
 Trainer Bot is an application that acts as a portable personal trainer, providing real-time feedback to improve the execution of "Squat" and "Deadlift" physical exercises. The app utilizes computer vision techniques to analyze the user's movements while performing the exercises and offers immediate feedback to correct possible execution errors.
@@ -23,15 +22,16 @@ The application also features a repetition counting functionality, where it moni
 
 ## What it looks like
 ## Initial Page
-
+![photo](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/initial%20page.png)
 
 ## Main Page
-
+![photo](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/Main%20page.png)
 
 ## Resume Exercice Page
-
+![photo](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/score%20page.png)
 
 ## Results Page
+![photo](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/results%20page.png)
 
 ## How to Use
 Make sure you have Python installed on your system.
