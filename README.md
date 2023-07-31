@@ -1,6 +1,8 @@
 # Trainer Bot - Portable Personal Trainer
 
 ## Trainer Bot
+[![video]([caminho/para/o/seu/video.mp4](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/logo.mp4))]([caminho/para/o/seu/video.mp4](https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/git%20images/logo.mp4))
+
 ## Project Description
 Trainer Bot is an application that acts as a portable personal trainer, providing real-time feedback to improve the execution of "Squat" and "Deadlift" physical exercises. The app utilizes computer vision techniques to analyze the user's movements while performing the exercises and offers immediate feedback to correct possible execution errors.
 
