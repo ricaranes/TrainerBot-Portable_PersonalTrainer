@@ -3,9 +3,7 @@
 ## Trainer Bot
 <img align="center" width="880" height="450" alt="GIF" src="https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/a90799fb-6133-44ea-b37d-33a6ca0e04b9.gif" />
 
-<br />
-<br />
-<br />
+
 
 
 
