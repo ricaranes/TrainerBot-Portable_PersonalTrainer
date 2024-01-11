@@ -12,9 +12,6 @@
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
 
 ## Project Description
 As a former lover of sports sciences, I believe that the process of becoming the happiest version of ourselves starts from the inside out, as this becomes fully connected with improving our mental and physical health, whether it is at home, at the gym, or from a distance. Workout training is known as a form to combine this cyclic web of well-being. Specially with the previous pandemic and lockdown that changed our world, the online game became really strong when it comes to online training and another topics of interest in our lives. When I thought about adding value to future experiences in online training, I decided to create something useful, accessible, and enjoyable for everyone. So I did it, and Trainer Bot is finally here! Trainer Bot is an application that acts as a portable personal trainer, providing real-time feedback to improve the execution of "Squat" and "Deadlift" physical exercises. This dinamic app utilizes computer vision techniques to analyze the user's movements while performing the exercises and offers immediate feedback to correct possible execution errors. Finally, we have an ally to keep our body moving without excuses!
