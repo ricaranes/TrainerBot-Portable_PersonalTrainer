@@ -1,7 +1,7 @@
 # Trainer Bot - Portable Personal Trainer
 
 ## Trainer Bot
-<img align="right" width="480" height="250" alt="GIF" src="https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/a90799fb-6133-44ea-b37d-33a6ca0e04b9.gif" />
+<img align="center" width="480" height="250" alt="GIF" src="https://github.com/ricaranes/TrainerBot-Portable_PersonalTrainer/blob/main/a90799fb-6133-44ea-b37d-33a6ca0e04b9.gif" />
 
 <br />
 <br />
